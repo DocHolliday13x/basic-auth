@@ -6,7 +6,7 @@
 
 ### Problem Domain  
 
-Concise Description of why this app exists
+This lab is to practice deploying an Express server that implements Basic Authentication with signup and sign in capabilities, using a postgres database for storage.
 
 ### Links and Resources
 
@@ -30,7 +30,7 @@ Concise Description of why this app exists
 - create repo on GitHub
 - clone repo to local machine
 - `npm init -y`
-- `npm i`
+- `npm i base-64 bcrypt cors dotenv express jest pg sequelize sequelize-cli sqlite3`
 - `nodemon` or `node index.js` to start server
 
 #### How to use your library (where applicable)
