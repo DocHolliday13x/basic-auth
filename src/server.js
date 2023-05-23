@@ -3,6 +3,8 @@
 // Imports
 require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
+const PORT = process.env.PORT || 3000;
 const userRouter = require('./auth/router.js');
 
 // Handlers
